@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language name="Deutsch">
+
+	<menuBar>
+		<file name="Datei">
+			<language name="Sprache">
+				<german>Deutsch</german>
+				<english>Englisch</english>
+			</language>
+			<exit>Beenden</exit>
+		</file>
+
+		<edit name="Bearbeiten" />
+
+		<help name="Hilfe">
+			<manual>Anleitung</manual>
+			<about>Ueber...</about>
+			<visit>r3zn1k.ch</visit>
+		</help>
+	</menuBar>
+
+	<panels>
+		<imageList>
+			<menu>
+				<open>oeffnen</open>
+				<rename>umbenennen</rename>
+				<turn90Degrees>um 90 Grad drehen</turn90Degrees>
+				<removeFromList>aus Liste entfernen</removeFromList>
+			</menu>
+
+			<selectAll>Alles auswaehlen</selectAll>
+			<deselectAll>Nichts auswaehlen</deselectAll>
+			<clearList>Liste leeren</clearList>
+			<addImages>Bilder hinzufuegen</addImages>
+			<images>Bilder</images>
+		</imageList>
+
+		<size name="Groesse">
+			<standardSize>Standardgroesse</standardSize>
+			<defineSize>Groesse definieren</defineSize>
+			<maximumSize>Maximale Groesse</maximumSize>
+			<height>Hoehe</height>
+			<width>Breite</width>
+			<pixel>Pixel</pixel>
+		</size>
+
+		<name name="Name">
+			<rename>Umbennen</rename>
+			<name>Name</name>
+			<numberFrom>Nummerieren ab</numberFrom>
+		</name>
+
+		<options name="Optionen">
+			<overwriteImages name="Bilder ueberschreiben">
+				<overwriteImages>Bilder ueberschreiben</overwriteImages>
+				<askBeforeRun>Vor dem Ausfuehren nachfragen</askBeforeRun>
+				<dontOverwriteImages>Bilder nicht ueberschreiben</dontOverwriteImages>
+			</overwriteImages>
+			<outputDir>Zielordner</outputDir>
+		</options>
+
+		<run>Ausfuehren</run>
+	</panels>
+	
+	<messageDialogs>
+		<information name="Information">
+			<notAvailable>Diese Funktion ist in dieser Version nicht verfuegbar.</notAvailable>
+			<noImagesSelected>Keine Bilder ausgewaehlt.</noImagesSelected>
+			<successfulResize>Die Bilder wurden erfolgreicht skaliert.</successfulResize>
+		</information>
+		<error name="Fehler">
+			<language>Fehler beim Laden der Sprache.</language>
+			<emptyInputs>Es wurden nicht alle aktivierten Felder ausgefuellt.</emptyInputs>
+			<noOutputDir>Es wurde kein Zielordner gewaehlt.</noOutputDir>
+			<renameName>Es wurde kein Name zum Umebennen angegeben.</renameName>
+			<renameIndex>Es wurde keine Zahl zum Nummerieren angegeben.</renameIndex>
+			<resize>Fehler beim Verkleinern der Bilder.</resize>
+			<rename>Fehler beim Umbennen der Bilder.</rename>
+			<openImage>Fehler beim Oeffnen des Bildes</openImage>
+			<renameImage>Fehler beim Umbennnen des Bildes</renameImage>
+		</error>
+		<question name="Frage">
+			<loadLastImages>Sollen die zuletzt gewaehlten Bilder geladen werden?</loadLastImages>
+			<outputDir>Der gewaehlte Zielordner existiert nicht. Soll er erstellt werden?</outputDir>
+			<overwriteImages>Sollen gleichnamige Bilder ueberschrieben werden?</overwriteImages>
+		</question>
+		<input name="Eingabe">
+			<renameImage>Bild umbennen in...</renameImage>
+		</input>
+	</messageDialogs>
+
+	<progressDialogs>
+		<addImages>Bilder hinzufuegen</addImages>
+		<resizeImages>Bilder verkleinern</resizeImages>
+	</progressDialogs>
+
+</language>

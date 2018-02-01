@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language name="English">
+
+	<menuBar>
+		<file name="File">
+			<language name="Language">
+				<german>German</german>
+				<english>English</english>
+			</language>
+			<exit>Exit</exit>
+		</file>
+
+		<edit name="Edit" />
+
+		<help name="Help">
+			<manual>Manual</manual>
+			<about>About...</about>
+			<visit>r3zn1k.ch</visit>
+		</help>
+	</menuBar>
+
+	<panels>
+		<imageList>
+			<menu>
+				<open>open</open>
+				<rename>rename</rename>
+				<turn90Degrees>turn 90 degrees</turn90Degrees>
+				<removeFromList>remove from list</removeFromList>
+			</menu>
+
+			<selectAll>Select all</selectAll>
+			<deselectAll>Deselect all</deselectAll>
+			<clearList>Clear list</clearList>
+			<addImages>Add images</addImages>
+			<images>Images</images>
+		</imageList>
+
+		<size name="Size">
+			<standardSize>Standard size</standardSize>
+			<defineSize>Define size</defineSize>
+			<maximumSize>Maximum size</maximumSize>
+			<height>Height</height>
+			<width>Width</width>
+			<pixel>Pixel</pixel>
+		</size>
+
+		<name name="Name">
+			<rename>Rename</rename>
+			<name>Name</name>
+			<numberFrom>Number from</numberFrom>
+		</name>
+
+		<options name="Options">
+			<overwriteImages name="Overwrite images">
+				<overwriteImages>Overwrite images</overwriteImages>
+				<askBeforeRun>Ask before run</askBeforeRun>
+				<dontOverwriteImages>Dont overwrite images</dontOverwriteImages>
+			</overwriteImages>
+			<outputDir>Output directory</outputDir>
+		</options>
+
+		<run>Run</run>
+	</panels>
+	
+	<messageDialogs>
+		<information name="Information">
+			<notAvailable>This function is not available in this version.</notAvailable>
+			<noImagesSelected>No images selected.</noImagesSelected>
+			<successfulResize>The images were successfully resized.</successfulResize>
+		</information>
+		<error name="Error">
+			<language>Error while loading language.</language>
+			<emptyInputs>Not all selected fields are complete.</emptyInputs>
+			<noOutputDir>No output directory selected.</noOutputDir>
+			<renameName>No name to rename enterd.</renameName>
+			<renameIndex>No number to number enterd.</renameIndex>
+			<resize>Error while resizing the images.</resize>
+			<rename>Error while renaming the images.</rename>
+			<openImage>Error while opening the image</openImage>
+			<renameImage>Error while renaming the image</renameImage>
+		</error>
+		<question name="Question">
+			<loadLastImages>Load the last selected images?</loadLastImages>
+			<outputDir>The selected output directory doesnt exist. Create?</outputDir>
+			<overwriteImages>Overwrite images with the same name?</overwriteImages>
+		</question>
+		<input name="Input">
+			<renameImage>Rename image to...</renameImage>
+		</input>
+	</messageDialogs>
+
+	<progressDialogs>
+		<addImages>Add images</addImages>
+		<resizeImages>Resize images</resizeImages>
+	</progressDialogs>
+
+</language>
